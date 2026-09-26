@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Public+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<title>Northern Trades Technologies | Tools for trade contractors</title>
+<meta name="description" content="Northern Trades Technologies builds simple, affordable software and hardware for electrical, construction and trade contractors. Based in Trapper Creek, Alaska.">
+<meta property="og:title" content="Northern Trades Technologies">
+<meta property="og:description" content="Tools that take the paperwork off a contractor's plate.">
+<meta property="og:image" content="https://www.northerntradestechnologies.com/assets/og-image.jpg">
+<meta property="og:url" content="https://www.northerntradestechnologies.com/">
+<meta property="og:type" content="website">
+<link rel="preload" as="image" href="assets/hero-2000.jpg" imagesrcset="assets/hero-1200.jpg 1200w, assets/hero-2000.jpg 2000w" imagesizes="100vw">
+</head>
+<body>
+
+<div class="hero">
+  <img class="hero-photo" src="assets/hero-2000.jpg" srcset="assets/hero-1200.jpg 1200w, assets/hero-2000.jpg 2000w" sizes="100vw" alt="">
+  <header class="site-header wrap">
+    <a class="brand" href="index.html">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="8" fill="#1F5A4A"/><path d="M8 29l8-13 5 8 3-5 8 10z" fill="#F3F1EC"/><circle cx="28" cy="12" r="2.5" fill="#F3F1EC"/></svg>
+      <span class="brand-name"><b>Northern Trades</b><span>Technologies</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="products.html">Products</a>
+      <a class="btn btn-light" href="#contact">Contact us</a>
+    </nav>
+  </header>
+  <div class="hero-copy wrap">
+    <p class="hero-kicker">Technology for the trades, built in Trapper Creek, Alaska</p>
+    <h1>We build tools that take the paperwork off a contractor's plate.</h1>
+    <p class="lede">Northern Trades Technologies, LLC makes simple, affordable software and hardware for electrical, construction and trade contractors, starting with safety-meeting compliance.</p>
+  </div>
+</div>
+
+<main>
+<section class="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="about-copy">
+      <h2 id="about-title">Who we are</h2>
+      <p>We've run a contracting business ourselves, so we know how much of a supervisor's week goes to work that has nothing to do with the craft: tracking safety meetings, documenting toolbox talks for insurers and regulators, and keeping up with paperwork.</p>
+      <p>Northern Trades Technologies exists to give that time back, one workflow at a time. We're based in Trapper Creek, Alaska, and we build for contractors everywhere.</p>
+    </div>
+    <ul class="founders">
+      <li class="founder"><span class="initials" aria-hidden="true">MF</span><div><b>Matthew Ferroni</b><span>Co-founder</span></div></li>
+      <li class="founder"><span class="initials" aria-hidden="true">AB</span><div><b>Aaron Blowers</b><span>Co-founder</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="contact-info">
+      <h2 id="contact-title">Contact us</h2>
+      <p>Questions about our products, partnerships or anything else? Send us a note and we'll get back to you.</p>
+      <ul class="contact-lines">
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><a href="mailto:aaron@northerntradestechnologies.com">aaron@northerntradestechnologies.com</a></li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span>P.O. Box 13206<br>Trapper Creek, AK 99683</span></li>
+      </ul>
+    </div>
+    <form class="form" id="contact-form" novalidate>
+      <div class="form-row">
+        <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="5" required></textarea></div>
+      <p class="form-error" id="form-error" role="alert" hidden></p>
+      <div class="form-actions">
+        <button class="btn btn-spruce" type="submit">Send message</button>
+        <span class="form-note">Opens your email app with your message ready to send.</span>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <b>Northern Trades Technologies</b>
+      <span>© 2026 Northern Trades Technologies, LLC. Trapper Creek, Alaska.</span>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
